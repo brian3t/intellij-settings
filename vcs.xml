@@ -166,6 +166,10 @@
           <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/Mobe3/Mobe3Reports" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/Mobe3/Mobe3Api" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/var/www" />
