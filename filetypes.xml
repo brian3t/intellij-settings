@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="bn_linux_wms" type="YAML" />
     </extensionMap>
   </component>
 </application>
