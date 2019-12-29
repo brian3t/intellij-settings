@@ -1,0 +1,9 @@
+<application>
+  <component name="DockerRegistry">
+    <DockerRegistry email="" password="">
+      <option name="address" value="mcr.microsoft.com/mssql/server" />
+      <option name="name" value="Docker Registry" />
+      <option name="username" value="" />
+    </DockerRegistry>
+  </component>
+</application>
