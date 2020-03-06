@@ -84,7 +84,7 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo accu" uuid="3d19a528-ec9d-45c6-99f6-c1ab0283e69a">
+    <data-source source="LOCAL" name="mobe3repo accl" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
