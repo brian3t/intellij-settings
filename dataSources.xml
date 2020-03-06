@@ -90,5 +90,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=accl522Repo</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="mobe3repo peco" uuid="32d87018-05d3-4f12-a570-a9af8f074b66">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
+    </data-source>
   </component>
 </application>
