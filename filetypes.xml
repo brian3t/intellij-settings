@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="config" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
     </extensionMap>
