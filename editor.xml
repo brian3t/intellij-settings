@@ -9,5 +9,6 @@
   <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" />
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern pattern="todob" />
   </component>
 </application>
