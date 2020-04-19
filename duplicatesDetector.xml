@@ -1,0 +1,9 @@
+<application>
+  <component name="DuplicatesDetector">
+    <entry key="JavaScript">
+      <language>
+        <option name="anonymizeIdentifiers" value="false" />
+      </language>
+    </entry>
+  </component>
+</application>
