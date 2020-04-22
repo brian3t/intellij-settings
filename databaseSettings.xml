@@ -51,6 +51,16 @@
           </record-format>
         </header>
       </csv-format>
+      <csv-format name="csv IN filter" id="369ff9a4-2a99-4b80-8007-bab79b26cc54">
+        <data>
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="always" valueSeparator="," recordSeparator=",">
+            <quotation>
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+            </quotation>
+          </record-format>
+        </data>
+      </csv-format>
     </csv-formats>
   </component>
 </application>
