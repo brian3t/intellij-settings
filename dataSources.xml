@@ -9,39 +9,7 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo umcloud" uuid="41cddc46-0d5f-4466-a71c-c6856255956c">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=umcloud</jdbc-url>
-      <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
-    </data-source>
     <data-source source="LOCAL" name="mobe3repo btp" uuid="312e07f0-ed1c-467e-b666-d512f8303834">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc" uuid="dd1d5b3d-caf7-44f6-9e33-ef94a1a2008d">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-      <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo lod" uuid="887db85a-1416-4afc-aa63-c378f7925575">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -74,29 +42,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/lno</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc test" uuid="6cf8413b-060b-4a6e-b124-eac8c9a23e12">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mobe3repo accl" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=accl522Repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo peco" uuid="32d87018-05d3-4f12-a570-a9af8f074b66">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo hcc test" uuid="0e80918a-e66e-4212-a3df-42edc28e8b51">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=hcc476repo</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="hq-sql PROD" uuid="c9be5889-eb59-4e18-8e8a-fa1519cf1076">
       <driver-ref>sqlserver.ms</driver-ref>
