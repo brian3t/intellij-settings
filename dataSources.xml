@@ -110,5 +110,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://hq-sql:1433;database=mas500_btt</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="mobe3repo lodge" uuid="097a0437-66da-4c88-84b9-df74857c9c34">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=lodge251repo</jdbc-url>
+    </data-source>
   </component>
 </application>
