@@ -58,6 +58,9 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Docker.RemoteServers.StartContainer">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -119,6 +122,9 @@
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="RemoteServers.ConnectServer">
+    <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
