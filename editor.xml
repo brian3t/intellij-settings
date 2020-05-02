@@ -6,7 +6,7 @@
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
   </component>
-  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" />
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeAutoDelay="300" nodeUpdateOnChanges="true" updateFilesToCompile="true" />
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
     <pattern pattern="todob" />
