@@ -45,6 +45,7 @@
   <action id="Console.TableResult.MaximizeEditingCell" />
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
@@ -138,6 +139,11 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunToCursor" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
@@ -173,4 +179,5 @@
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="tasks.switch" />
 </keymap>
