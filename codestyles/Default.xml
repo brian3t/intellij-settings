@@ -13,4 +13,7 @@
   <codeStyleSettings language="JavaScript">
     <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
   </codeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="METHOD_BRACE_STYLE" value="5" />
+  </codeStyleSettings>
 </code_scheme>
