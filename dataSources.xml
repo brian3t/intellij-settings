@@ -78,12 +78,6 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=umcloudrepo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="dev05" uuid="0a862ee0-4732-4ed7-a937-a944d1adbbb8">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://192.168.3.7</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="wmsqa" uuid="591eb341-8c98-43d1-ba25-b6dace8b82c4">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
