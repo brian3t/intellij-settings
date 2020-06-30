@@ -78,5 +78,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://192.168.3.11</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="dev05" uuid="5bf32c90-b5bc-4d58-9e87-d10b66247a36">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.3.7</jdbc-url>
+    </data-source>
   </component>
 </application>
