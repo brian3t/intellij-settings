@@ -24,7 +24,7 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo lodge" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
+    <data-source source="LOCAL" name="mobe3repo mcc" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -53,6 +53,30 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=umcloudrepo</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Sql1" uuid="ec4d0ad5-6f09-4312-8540-e108247c0ae9">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.4.101</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sql0" uuid="ad03c842-a281-4020-b1fa-f6c407f4895b">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.4.11</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="qa" uuid="c86442e1-585d-4deb-b3a0-bc6db878b5d5">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.3.11</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dev05" uuid="5bf32c90-b5bc-4d58-9e87-d10b66247a36">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.3.7</jdbc-url>
     </data-source>
   </component>
 </application>
