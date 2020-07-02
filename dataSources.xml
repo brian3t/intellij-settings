@@ -76,17 +76,17 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://192.168.4.101</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="sql0" uuid="6e2e8195-e2f8-4a77-962f-641eb91e66ba">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://192.168.4.11</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="wmsqa" uuid="e2a03964-78ef-4f75-81f2-e6dc163a490b">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://192.168.3.11</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sql0" uuid="6874b8ce-65fe-4ad2-9fda-4c3ca7f28f19">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.4.11</jdbc-url>
     </data-source>
   </component>
 </application>
