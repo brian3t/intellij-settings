@@ -24,17 +24,11 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo lodge" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
+    <data-source source="LOCAL" name="mobe3repo mcc" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="hq-sql PROD" uuid="c9be5889-eb59-4e18-8e8a-fa1519cf1076">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://hq-sql:1433;database=mas500_app</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="hq-sql Test" uuid="d8353c6d-7979-4f35-8f69-5265c55a6f1e">
       <driver-ref>sqlserver.ms</driver-ref>
