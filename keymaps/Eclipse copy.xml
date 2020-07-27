@@ -113,6 +113,10 @@
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -126,6 +130,7 @@
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
+  <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
@@ -188,6 +193,7 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
   <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
