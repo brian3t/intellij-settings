@@ -1,6 +1,6 @@
 <keymap version="1" name="Eclipse copy" parent="Eclipse">
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -192,6 +192,7 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />
