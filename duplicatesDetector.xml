@@ -3,6 +3,7 @@
     <entry key="JavaScript">
       <language>
         <option name="anonymizeIdentifiers" value="false" />
+        <option name="enabledIndex" value="false" />
       </language>
     </entry>
   </component>
