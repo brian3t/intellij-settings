@@ -88,5 +88,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hq-sql PROD" uuid="50a0c1a0-15f9-48e7-9b84-fc2652d06061">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://hq-sql:1433;database=mas500_app</jdbc-url>
+    </data-source>
   </component>
 </application>
