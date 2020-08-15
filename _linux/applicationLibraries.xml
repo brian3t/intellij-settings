@@ -10,6 +10,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/cheerio" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/google-maps" type="javaScript">
       <CLASSES />
       <JAVADOC />
