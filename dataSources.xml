@@ -74,7 +74,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://192.168.4.11</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://192.168.4.11;database=btp887test</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo lod" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
       <driver-ref>azure.ms</driver-ref>
