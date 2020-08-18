@@ -30,12 +30,6 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="hq-sql Test" uuid="d8353c6d-7979-4f35-8f69-5265c55a6f1e">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://hq-sql:1433;database=mas500_btt</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
@@ -87,12 +81,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="hq-sql PROD" uuid="50a0c1a0-15f9-48e7-9b84-fc2652d06061">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://hq-sql:1433;database=mas500_app</jdbc-url>
     </data-source>
   </component>
 </application>
