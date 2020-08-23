@@ -61,6 +61,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift f5" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
