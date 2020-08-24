@@ -82,11 +82,5 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo hcc" uuid="1ada5b01-54a2-400c-ac2e-b2694fb40273">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=hcc476repo</jdbc-url>
-    </data-source>
   </component>
 </application>
