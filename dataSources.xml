@@ -24,7 +24,7 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo lodge" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
+    <data-source source="LOCAL" name="mobe3repo mcc" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -70,7 +70,7 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://192.168.4.11;database=btp887test</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
+    <data-source source="LOCAL" name="mobe3repo lod" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
