@@ -6,6 +6,9 @@
     <driver id="clickhouse">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="db2.11">
+      <option name="auto-sync" value="false" />
+    </driver>
     <driver id="db2">
       <option name="auto-sync" value="false" />
     </driver>
@@ -60,7 +63,7 @@
       <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="sqlserver.jtds">
-      <artifact id="jTDS (SQL Server and Sybase)" name="jTDS (SQL Server and Sybase)" use="true" version="1.3.1.1" />
+      <artifact id="jTDS SQL Server and Sybase" name="jTDS SQL Server and Sybase" use="true" version="1.3.1.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="format-sources-on-sync" value="true" />
