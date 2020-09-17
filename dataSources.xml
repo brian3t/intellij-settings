@@ -24,12 +24,6 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo lodge" uuid="9e2a8987-89a1-4b01-b2b9-c1acf51a6e97">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
@@ -48,7 +42,7 @@
       <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:jtds:sqlserver://192.168.3.7/umcloud</jdbc-url>
       <jdbc-additional-properties>
-        <property name="DOMAIN" value="evssw" />
+        <property name="DOMAIN" value="evssw.com" />
       </jdbc-additional-properties>
       <driver-properties>
         <property name="USENTLMV2" value="false" />
@@ -87,12 +81,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=lodge251repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc test" uuid="2f4fc34f-a2f8-4106-9afd-43dc71fa5152">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc dev" uuid="cc190f7c-d6aa-4741-abe6-a50953d32ee4">
       <driver-ref>azure.ms</driver-ref>
