@@ -88,5 +88,17 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="evs managed ins" uuid="34e85514-f360-4d96-9b66-ce0d23132092">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-sqlmi1.11ffb021c1f7.database.windows.net:1433</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
