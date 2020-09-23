@@ -76,7 +76,7 @@
         <property name="DOMAIN" value="evssw" />
       </jdbc-additional-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
+    <data-source source="LOCAL" name="mobe3repo lod" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
