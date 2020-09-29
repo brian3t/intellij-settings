@@ -100,5 +100,11 @@
         <property name="trustServerCertificate" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="mobe3repo mcc test" uuid="7e0a9b3f-395b-49db-a07e-89628519ec44">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
+    </data-source>
   </component>
 </application>
