@@ -2436,6 +2436,11 @@
         <root url="file:///var/lib/gems/2.5.0/gems/public_suffix-3.0.2/test" />
       </excluded>
     </library>
+    <library name="Python 3.8 interpreter library">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="rack (v2.0.5, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/rack-2.0.5/bin" />
