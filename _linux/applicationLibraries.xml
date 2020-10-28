@@ -1,45 +1,5 @@
 <application>
   <component name="libraryTable">
-    <library name="@types/backbone" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/backbone-relational" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/cheerio" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/google-maps" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/jquery" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/jquery.validation" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/lodash" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/mongoose" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="activesupport (v5.2.0, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/activesupport-5.2.0/lib" />
@@ -2259,20 +2219,6 @@
       <SOURCES>
         <root url="file:///var/lib/gems/2.5.0/gems/mixlib-shellout-2.4.0/lib" />
       </SOURCES>
-    </library>
-    <library name="moment global" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file:///var/www/lib/bower_components/moment/moment.d.ts" />
-          <item url="file:///var/www/lib/bower_components/moment/moment.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file:///var/www/lib/bower_components/moment/moment.d.ts" />
-        <root url="file:///var/www/lib/bower_components/moment/moment.js" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
     </library>
     <library name="multi_json (v1.13.1, ruby-2.5.1-p57) [gem]">
       <CLASSES>
