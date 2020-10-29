@@ -76,7 +76,7 @@
         <property name="DOMAIN" value="evssw" />
       </jdbc-additional-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
+    <data-source source="LOCAL" name="mobe3repo lod" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -105,6 +105,12 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="movietime" uuid="4d897158-4701-4d6b-bcd6-1bb286f14b17">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.1.9:3306</jdbc-url>
     </data-source>
   </component>
 </application>
