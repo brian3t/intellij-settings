@@ -58,15 +58,6 @@
         <property name="DOMAIN" value="evssw" />
       </jdbc-additional-properties>
     </data-source>
-    <data-source source="LOCAL" name="wmsqa" uuid="e2a03964-78ef-4f75-81f2-e6dc163a490b">
-      <driver-ref>sqlserver.jtds</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://192.168.3.11</jdbc-url>
-      <jdbc-additional-properties>
-        <property name="DOMAIN" value="evssw" />
-      </jdbc-additional-properties>
-    </data-source>
     <data-source source="LOCAL" name="sql0" uuid="6874b8ce-65fe-4ad2-9fda-4c3ca7f28f19">
       <driver-ref>sqlserver.jtds</driver-ref>
       <synchronize>true</synchronize>
@@ -76,29 +67,11 @@
         <property name="DOMAIN" value="evssw" />
       </jdbc-additional-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo lod" uuid="73e23b47-ea68-420a-88d2-fb235cd5eebd">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=lodge251repo</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc dev" uuid="cc190f7c-d6aa-4741-abe6-a50953d32ee4">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="evs managed ins" uuid="34e85514-f360-4d96-9b66-ce0d23132092">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://evs-azure-sqlmi1.11ffb021c1f7.database.windows.net:1433</jdbc-url>
-      <jdbc-additional-properties>
-        <property name="DOMAIN" value="evssw" />
-      </jdbc-additional-properties>
-      <driver-properties>
-        <property name="trustServerCertificate" value="true" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc test" uuid="7e0a9b3f-395b-49db-a07e-89628519ec44">
       <driver-ref>azure.ms</driver-ref>
