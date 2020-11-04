@@ -24,7 +24,7 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo all" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
+    <data-source source="LOCAL" name="mobe3repo umcloud" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
