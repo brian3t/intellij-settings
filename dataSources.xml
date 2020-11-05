@@ -24,7 +24,7 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo umcloud" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
+    <data-source source="LOCAL" name="mobe3repo all" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -48,24 +48,6 @@
         <property name="USENTLMV2" value="false" />
         <property name="DOMAIN" />
       </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="Sql1" uuid="b780d452-df36-4a41-8bd8-e353db1c1a1a">
-      <driver-ref>sqlserver.jtds</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.101</jdbc-url>
-      <jdbc-additional-properties>
-        <property name="DOMAIN" value="evssw" />
-      </jdbc-additional-properties>
-    </data-source>
-    <data-source source="LOCAL" name="sql0" uuid="6874b8ce-65fe-4ad2-9fda-4c3ca7f28f19">
-      <driver-ref>sqlserver.jtds</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.11</jdbc-url>
-      <jdbc-additional-properties>
-        <property name="DOMAIN" value="evssw" />
-      </jdbc-additional-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc dev" uuid="cc190f7c-d6aa-4741-abe6-a50953d32ee4">
       <driver-ref>azure.ms</driver-ref>
