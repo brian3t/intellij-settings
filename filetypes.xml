@@ -1,10 +1,9 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
-      <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
       <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="edge" type="PLAIN_TEXT" />
