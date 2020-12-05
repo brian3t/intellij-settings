@@ -13,7 +13,10 @@
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>
