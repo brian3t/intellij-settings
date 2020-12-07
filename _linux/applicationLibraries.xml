@@ -15,26 +15,6 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="@types/ember" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/ember-data" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/ember-data__adapter" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="@types/ember-data__model" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="@types/google-maps" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -55,7 +35,7 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="@types/mongoose" type="javaScript">
+    <library name="@types/react" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
