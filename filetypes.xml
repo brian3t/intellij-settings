@@ -9,6 +9,10 @@
       <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>

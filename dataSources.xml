@@ -1,11 +1,5 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mobe3repo btp test" uuid="c3e36a58-53b5-4ac1-abfd-890c138427c8">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mysql local" uuid="f670a086-66ef-44c2-9384-86a35514b62b">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
@@ -15,41 +9,11 @@
         <property name="serverTimezone" value="PST" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo all" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo btp" uuid="a2f859c8-d5e2-428c-90fb-b2bfbcbf384a">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc dev" uuid="cc190f7c-d6aa-4741-abe6-a50953d32ee4">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo mcc test" uuid="7e0a9b3f-395b-49db-a07e-89628519ec44">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="movietime" uuid="4d897158-4701-4d6b-bcd6-1bb286f14b17">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.1.9:3306</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="repo lodge" uuid="482da099-e3f2-41f1-9178-9536bcd1499d">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=lodge251repo</jdbc-url>
     </data-source>
   </component>
 </application>
