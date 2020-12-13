@@ -10,6 +10,8 @@
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>
