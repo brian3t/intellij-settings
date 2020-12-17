@@ -1,0 +1,19 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mysql local" uuid="f670a086-66ef-44c2-9384-86a35514b62b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="PST" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="movietime" uuid="4d897158-4701-4d6b-bcd6-1bb286f14b17">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.1.9:3306</jdbc-url>
+    </data-source>
+  </component>
+</application>

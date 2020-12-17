@@ -1,9 +1,17 @@
 <keymap version="1" name="Eclipse copy" parent="Eclipse">
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
@@ -27,8 +35,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="Console.Open">
-    <keyboard-shortcut first-keystroke="ctrl f10" />
+  <action id="Console.TableResult.EditFilterCriteria">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -38,7 +47,12 @@
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
+  <action id="Console.TableResult.SetNull">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="Console.TableResult.Transpose">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ConsoleView.ClearAll">
@@ -49,14 +63,17 @@
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift alt d" />
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift f5" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Docker.RemoteServers.StartContainer">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -65,8 +82,7 @@
     <mouse-shortcut keystroke="control button142" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
-  <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorIncreaseFontSize">
@@ -94,12 +110,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
+  <action id="GotoAction" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -114,6 +135,7 @@
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
+  <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
@@ -122,8 +144,13 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="RemoteServers.ConnectServer">
+    <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
@@ -138,6 +165,7 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
@@ -169,10 +197,12 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
-  <action id="UpdateRunningApplication" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="tasks.switch" />
 </keymap>

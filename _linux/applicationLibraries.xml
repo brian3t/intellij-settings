@@ -10,6 +10,36 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/cheerio" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/ember" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/ember-data" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/ember-data__adapter" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/ember-data__model" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/google-maps" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/jquery" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -21,6 +51,16 @@
       <SOURCES />
     </library>
     <library name="@types/lodash" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/mongoose" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/xml-parser" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
@@ -1589,18 +1629,6 @@
         <root url="file:///var/lib/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib" />
       </SOURCES>
     </library>
-    <library name="createjs-2015.11.26" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.createjs.com_createjs-2015.11.26.min.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.createjs.com_createjs-2015.11.26.min.js" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="diff-lcs (v1.3, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/diff-lcs-1.3/bin" />
@@ -2433,6 +2461,11 @@
         <root url="file:///var/lib/gems/2.5.0/gems/public_suffix-3.0.2/test" />
       </excluded>
     </library>
+    <library name="Python 3.8 interpreter library">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="rack (v2.0.5, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/rack-2.0.5/bin" />
@@ -2680,18 +2713,6 @@
         <root url="file:///var/lib/gems/2.5.0/gems/systemu-2.6.5/test" />
         <root url="file:///var/lib/gems/2.5.0/gems/systemu-2.6.5/samples" />
       </excluded>
-    </library>
-    <library name="target-script" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_usvsolutions.com:8080_target_target-script.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_usvsolutions.com:8080_target_target-script.js" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
     </library>
     <library name="thor (v0.20.0, ruby-2.5.1-p57) [gem]">
       <CLASSES>
