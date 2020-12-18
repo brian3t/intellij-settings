@@ -1,20 +1,20 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
-      <mapping pattern="invaws" type="PLAIN_TEXT" />
-      <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
+      <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
+      <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <mapping pattern="bn_linux_wms" type="YAML" />
     </extensionMap>
   </component>
 </application>
