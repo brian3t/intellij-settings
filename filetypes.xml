@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
