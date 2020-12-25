@@ -20,6 +20,7 @@
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
+      <removed_mapping pattern=".log" approved="true" type="log" />
     </extensionMap>
   </component>
 </application>
