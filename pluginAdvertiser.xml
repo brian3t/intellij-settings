@@ -77,8 +77,8 @@
         <entry key="*.apk">
           <value>
             <plugin>
-              <option name="myPluginId" value="com.intellij" />
-              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1568,8 +1568,8 @@
         <entry key="*.psd">
           <value>
             <plugin>
-              <option name="myPluginId" value="com.intellij.platform.images" />
-              <option name="myPluginName" value="com.intellij.platform.images" />
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -2688,6 +2688,21 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="AndroidJUnit">
+                    <value>
+                      <FeaturePluginData displayName="Android JUnit" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="AndroidRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Android App" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="AndroidTestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Android Instrumented Tests" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
                   <entry key="Application">
                     <value>
                       <FeaturePluginData displayName="Application" pluginName="Java" pluginId="com.intellij.java" />
@@ -2723,9 +2738,24 @@
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
+                  <entry key="GradleRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" />
+                    </value>
+                  </entry>
+                  <entry key="GroovyScriptRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Groovy" pluginName="Groovy" pluginId="org.intellij.groovy" />
+                    </value>
+                  </entry>
                   <entry key="HttpClient.HttpRequestRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" />
+                    </value>
+                  </entry>
+                  <entry key="JUnit">
+                    <value>
+                      <FeaturePluginData displayName="JUnit" pluginName="JUnit" pluginId="JUnit" />
                     </value>
                   </entry>
                   <entry key="JarApplication">
@@ -2751,6 +2781,21 @@
                   <entry key="JavascriptDebugType">
                     <value>
                       <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                    </value>
+                  </entry>
+                  <entry key="JetRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="KotlinJavaScriptTestRunnerProtractor">
+                    <value>
+                      <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="KotlinStandaloneScriptRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="NodeJSConfigurationType">
@@ -2913,6 +2958,21 @@
                       <FeaturePluginData displayName="Python" pluginName="Pythonid" pluginId="Pythonid" />
                     </value>
                   </entry>
+                  <entry key="android">
+                    <value>
+                      <FeaturePluginData displayName="Android" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="android-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Android-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="apk">
+                    <value>
+                      <FeaturePluginData displayName="APK" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
                   <entry key="buildout-python">
                     <value>
                       <FeaturePluginData displayName="Buildout Support" pluginName="Python" pluginId="Pythonid" />
@@ -2928,6 +2988,21 @@
                       <FeaturePluginData displayName="Google App Engine (Python)" pluginName="Pythonid" pluginId="Pythonid" />
                     </value>
                   </entry>
+                  <entry key="java-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Java-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="kotlin-language">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="native-android-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Native-Android-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>
@@ -2938,6 +3013,11 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="apk">
+                    <value>
+                      <FeaturePluginData displayName="Android application" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
                   <entry key="jar">
                     <value>
                       <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" />
