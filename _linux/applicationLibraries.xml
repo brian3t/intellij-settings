@@ -1557,6 +1557,13 @@
         <root url="file:///var/lib/gems/2.5.0/gems/cfndsl-0.16.6/sample" />
       </excluded>
     </library>
+    <library name="ch" type="javaScript">
+      <CLASSES>
+        <root url="file:///var/www/bkup/totoado/node_modules/cheerio/types/index.d.ts" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="chef (v14.3.37, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/chef-14.3.37/bin" />

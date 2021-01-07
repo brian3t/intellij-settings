@@ -2,8 +2,9 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.liquid" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -14,9 +15,8 @@
     <mask>*.xml</mask>
     <mask>*.json</mask>
     <mask>*.html</mask>
+    <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
-    <mask>*.css</mask>
-    <mask>*.liquid</mask>
   </component>
 </application>
