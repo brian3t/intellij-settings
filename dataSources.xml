@@ -15,5 +15,76 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.1.9:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="repo btp test" uuid="3b389a83-2ea7-447f-b291-0b48257a21df">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="repo btp" uuid="080c67dd-b244-4f95-b554-6a8e41d9051b">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="sql0" uuid="5f3c522a-8f2b-4e22-a442-be6ec7c1b79f">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.11</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="SQL1" uuid="1e5ce4c4-9909-46a2-bb20-6f67db3138ac">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.101</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mi" uuid="5bad6ce9-cadd-4992-be66-639a45a9afb2">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-sqlmi1.11ffb021c1f7.database.windows.net:1433</jdbc-url>
+      <driver-properties>
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="dev05" uuid="3e821d36-cc12-453c-b032-38749e1177d2">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.3.7</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="qa" uuid="9a5932aa-b4fb-4f7c-b94f-8f89dd341a88">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.3.11</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mi btp" uuid="6363dfb0-28b4-4e18-8a03-307393320bdb">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://btp-azure-sqlmi1.11ffb021c1f7.database.windows.net</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
