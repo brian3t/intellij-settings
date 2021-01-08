@@ -15,5 +15,78 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.1.9:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="mobe3repo btp test" uuid="c3e36a58-53b5-4ac1-abfd-890c138427c8">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="evs managed ins" uuid="ed935ccd-4726-4c81-89a6-7d3e293f2c73">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-sqlmi1.11ffb021c1f7.database.windows.net:1433</jdbc-url>
+      <driver-properties>
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="SQL1" uuid="57e50ccd-146d-4ffd-b88b-a6e65e93ffa2">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.101</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="qa" uuid="9ae31da2-0232-4a75-9d4e-3bddd96494c3">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.3.11</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mobe3repo umcloud" uuid="1d7ee3f5-10c3-4f7c-b7fc-8688a9443b7d">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="repo devops" uuid="ed22926b-4443-4793-a8b4-1623b5509c2e">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=devops</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sql0 1210" uuid="c9b6727b-15ac-48a8-92fd-4402b0671f35">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.4.11/btp887test</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="dev05" uuid="51a5b0e9-87ec-4e01-bae9-1e07a7701782">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.3.7</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="evssw" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mobe3repo btp" uuid="a2f859c8-d5e2-428c-90fb-b2bfbcbf384a">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
+    </data-source>
   </component>
 </application>
