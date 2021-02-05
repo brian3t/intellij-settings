@@ -17,6 +17,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
+  <action id="AndroidMigrateToAndroidxAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="CallHierarchy" />
@@ -135,6 +138,7 @@
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
+  <action id="PublishGroup.UploadTo" />
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
