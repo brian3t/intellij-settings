@@ -4,7 +4,6 @@
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="config" type="LOMBOK_CONFIG" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess" type="PLAIN_TEXT" />
