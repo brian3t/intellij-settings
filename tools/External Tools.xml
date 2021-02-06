@@ -90,4 +90,18 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools/" />
     </exec>
   </tool>
+  <tool name="capo prepare cdv android" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/cordova" />
+      <option name="PARAMETERS" value="prepare android" />
+      <option name="WORKING_DIRECTORY" value="/var/www/capo_html" />
+    </exec>
+  </tool>
+  <tool name="capo build cdv android" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/cordova" />
+      <option name="PARAMETERS" value="build android" />
+      <option name="WORKING_DIRECTORY" value="/var/www/capo_html" />
+    </exec>
+  </tool>
 </toolSet>
