@@ -2,29 +2,30 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
-      <mapping ext="ng" type="HTML" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
-      <mapping pattern="invaws" type="PLAIN_TEXT" />
-      <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
-      <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
+      <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
+      <mapping pattern="bn_linux_wms" type="YAML" />
+      <mapping pattern="tsconfig.spec.json" type="tsconfig" />
+      <mapping pattern="tsconfig.app.json" type="tsconfig" />
+      <mapping pattern="tsconfig.lib.json" type="tsconfig" />
+      <mapping pattern="tsconfig.e2e.json" type="tsconfig" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
-      <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".log" approved="true" type="log" />
-      <mapping pattern="bn_linux_wms" type="YAML" />
-      <mapping pattern="tsconfig.app.json" type="tsconfig" />
-      <mapping pattern="tsconfig.e2e.json" type="tsconfig" />
-      <mapping pattern="tsconfig.lib.json" type="tsconfig" />
-      <mapping pattern="tsconfig.spec.json" type="tsconfig" />
     </extensionMap>
   </component>
 </application>
