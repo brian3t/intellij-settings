@@ -149,7 +149,6 @@
   </action>
   <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh">
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="RemoteServers.ConnectServer">
