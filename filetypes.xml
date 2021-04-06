@@ -13,6 +13,7 @@
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="pm2" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="config_bkup" type="PLAIN_TEXT" />
       <mapping ext="jasper" type="PLAIN_TEXT" />
