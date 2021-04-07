@@ -202,5 +202,7 @@
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="sql.SelectInDatabaseView" />
+  <action id="tasks.open.in.browser" />
   <action id="tasks.switch" />
 </keymap>
