@@ -166,6 +166,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunToCursor" />
+  <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
