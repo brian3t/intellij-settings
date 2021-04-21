@@ -42,6 +42,11 @@
                       <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="GroovyScriptRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Groovy" pluginName="Groovy" pluginId="org.intellij.groovy" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="HttpClient.HttpRequestRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" bundled="true" />
@@ -90,6 +95,11 @@
                   <entry key="PHPUnitRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="PHPUnit" pluginName="PHP" pluginId="com.jetbrains.php" />
+                    </value>
+                  </entry>
+                  <entry key="PhoneGap">
+                    <value>
+                      <FeaturePluginData displayName="Cordova" pluginName="Cordova" pluginId="com.github.masahirosuzuka.PhoneGapIntelliJPlugin" />
                     </value>
                   </entry>
                   <entry key="PhpBuiltInWebServerConfigurationType">
