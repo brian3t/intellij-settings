@@ -8,8 +8,16 @@
           <option name="serverUri" value="https://evssw.visualstudio.com" />
           <option name="userId" value="a61c02e4-905a-6bca-b99c-3559d433f426" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;aec76b4f-fa18-4a2b-9a0d-55d40c9783d7&quot;,&quot;name&quot;:&quot;evssw&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/projectCollections/aec76b4f-fa18-4a2b-9a0d-55d40c9783d7&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;mobe3 Directory&quot;,&quot;id&quot;:&quot;9305e063-bb70-4977-a916-ddec152db8c0&quot;,&quot;name&quot;:&quot;Mobe3&quot;,&quot;revision&quot;:170,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/projects/9305e063-bb70-4977-a916-ddec152db8c0&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:&quot;refs/heads/master&quot;,&quot;id&quot;:&quot;c526d5ce-045b-4e9f-ad09-205e67d5b9e1&quot;,&quot;name&quot;:&quot;Mobe3WebWMS&quot;,&quot;remoteUrl&quot;:&quot;https://evssw.visualstudio.com/Mobe3/_git/Mobe3WebWMS&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/9305e063-bb70-4977-a916-ddec152db8c0/_apis/git/repositories/c526d5ce-045b-4e9f-ad09-205e67d5b9e1&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;mobe3 Directory&quot;,&quot;id&quot;:&quot;9305e063-bb70-4977-a916-ddec152db8c0&quot;,&quot;name&quot;:&quot;Mobe3&quot;,&quot;revision&quot;:170,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/projects/9305e063-bb70-4977-a916-ddec152db8c0&quot;}}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;mobe3 Directory&quot;,&quot;id&quot;:&quot;9305e063-bb70-4977-a916-ddec152db8c0&quot;,&quot;name&quot;:&quot;Mobe3&quot;,&quot;revision&quot;:170,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/projects/9305e063-bb70-4977-a916-ddec152db8c0&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;c526d5ce-045b-4e9f-ad09-205e67d5b9e1&quot;,&quot;name&quot;:&quot;Mobe3WebWMS&quot;,&quot;remoteUrl&quot;:&quot;https://evssw.visualstudio.com/Mobe3/_git/Mobe3WebWMS&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/git/repositories/c526d5ce-045b-4e9f-ad09-205e67d5b9e1&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;mobe3 Directory&quot;,&quot;id&quot;:&quot;9305e063-bb70-4977-a916-ddec152db8c0&quot;,&quot;name&quot;:&quot;Mobe3&quot;,&quot;revision&quot;:170,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://evssw.visualstudio.com/_apis/projects/9305e063-bb70-4977-a916-ddec152db8c0&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://evssw.visualstudio.com" />
+          <option name="serverUri" value="https://evssw.visualstudio.com" />
+          <option name="userId" value="a61c02e4-905a-6bca-b99c-3559d433f426" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
         </ServerContextState>
       </array>
     </option>

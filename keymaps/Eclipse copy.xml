@@ -80,19 +80,20 @@
   <action id="Docker.RemoteServers.StartContainer">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="EditorDecreaseFontSize">
-    <mouse-shortcut keystroke="control button142" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorIncreaseFontSize">
-    <mouse-shortcut keystroke="control button143" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorStartNewLine" />
@@ -135,8 +136,20 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="MethodHierarchy" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <mouse-shortcut keystroke="control button142" />
+  </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
@@ -166,6 +179,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunToCursor" />
+  <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
