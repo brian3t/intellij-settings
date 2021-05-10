@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping ext="config" type="JSON" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
