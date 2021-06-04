@@ -35,6 +35,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.Jdbc.Execute.2">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -75,6 +78,7 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Docker.RemoteServers.StartContainer">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
@@ -94,6 +98,7 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
@@ -130,6 +135,7 @@
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
+  <action id="KotlinShellExecute" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -186,6 +192,7 @@
   </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="SplitChooser.Duplicate" />
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -204,6 +211,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
@@ -213,6 +221,7 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />

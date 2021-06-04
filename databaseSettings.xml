@@ -2,7 +2,13 @@
   <component name="DatabaseSettings" version="7">
     <option name="page-size-updated-timestamp" value="1617821192163" />
     <option name="auto-transpose-mode" value="ONE_ROW" />
+    <option name="execute-inside-option" value="5" />
     <option name="warn-unsafe-query" value="false" />
+    <exec-options>
+      <exec-option exec-inside="5" />
+      <exec-option />
+      <exec-option />
+    </exec-options>
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
