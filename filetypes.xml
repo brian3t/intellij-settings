@@ -6,6 +6,9 @@
       <mapping pattern="sauto" type="AUTO_DETECTED" />
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping ext="config" type="JSON" />
+      <mapping ext="space.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess" type="PLAIN_TEXT" />
@@ -34,9 +37,6 @@
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".log" approved="true" type="log" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="space.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>
