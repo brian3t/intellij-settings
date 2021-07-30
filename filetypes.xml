@@ -1,17 +1,17 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping pattern="test,sh" type="AUTO_DETECTED" />
-      <mapping pattern="sauto" type="AUTO_DETECTED" />
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
+      <mapping pattern="sauto" type="AUTO_DETECTED" />
+      <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping ext="config" type="JSON" />
-      <mapping pattern="samplejson" type="PLAIN_TEXT" />
-      <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
-      <mapping pattern="Pipfile" type="PLAIN_TEXT" />
+      <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess" type="PLAIN_TEXT" />
+      <mapping pattern="samplejson" type="PLAIN_TEXT" />
+      <mapping pattern="Pipfile" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
