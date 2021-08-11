@@ -30,5 +30,10 @@
     <driver id="sqlite.xerial">
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
     </driver>
+    <driver id="com.filemaker.jdbc.Driver" name="com.filemaker.jdbc.Driver" driver-class="com.filemaker.jdbc.Driver">
+      <library>
+        <url>file://$USER_HOME$/tmp/mega/projects/laby/fmjdbc.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
