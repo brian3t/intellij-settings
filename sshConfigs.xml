@@ -7,6 +7,9 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="usvsolutions.com" id="0f90e8a7-2657-4876-84da-d81a7896b11b" port="22" customName="usv" nameFormat="CUSTOM" username="customer">
         <option name="customName" value="usv" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.4.19" id="65775bb7-5336-4723-a481-511823c9b67d" port="22" customName="INTTest" nameFormat="CUSTOM" username="evsadmin">
+        <option name="customName" value="INTTest" />
+      </sshConfig>
     </configs>
   </component>
 </application>
