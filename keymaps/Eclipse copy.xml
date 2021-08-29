@@ -99,6 +99,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt 8" />
   </action>
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorToggleCase">
