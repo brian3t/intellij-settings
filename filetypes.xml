@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping pattern=".env" type=".env file" />
       <mapping pattern="test,sh" type="AUTO_DETECTED" />
       <mapping pattern="sauto" type="AUTO_DETECTED" />
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
@@ -26,21 +25,13 @@
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="env" approved="true" type="Env File" />
-      <removed_mapping ext="env" approved="true" type="Env File" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <removed_mapping pattern=".env" approved="true" type=".env file" />
-      <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern=".log" approved="true" type="log" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
