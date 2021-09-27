@@ -43,6 +43,12 @@
       <library>
         <url>file://$USER_HOME$/tmp/mega/projects/laby/fmjdbc.jar</url>
       </library>
+      <library>
+        <url>file://$USER_HOME$/tmp/mega/projects/laby/fmjdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/tmp/mega/projects/laby/fmjdbc.jar</url>
+      </library>
     </driver>
   </component>
 </application>
