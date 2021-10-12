@@ -105,6 +105,9 @@
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorToggleCase">
