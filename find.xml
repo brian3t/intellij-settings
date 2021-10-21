@@ -15,9 +15,10 @@
     <mask>*.jrxml</mask>
     <mask>.js</mask>
     <mask>*.jsx</mask>
-    <mask>*.html</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
+    <mask>*</mask>
     <mask>*.js</mask>
+    <mask>*.html</mask>
   </component>
 </application>

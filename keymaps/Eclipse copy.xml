@@ -1,4 +1,7 @@
 <keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
@@ -51,6 +54,9 @@
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
+  <action id="Console.TableResult.ResetView">
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="alt r" />
+  </action>
   <action id="Console.TableResult.SetNull">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
     <keyboard-shortcut first-keystroke="shift ctrl n" />
@@ -102,6 +108,9 @@
   </action>
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorToggleCase">
@@ -220,6 +229,10 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="TodoViewGroupByFlattenPackage" />
