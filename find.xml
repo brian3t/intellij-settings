@@ -16,9 +16,9 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.php</mask>
     <mask>*.html</mask>
     <mask>*.jrxml</mask>
+    <mask>*.php</mask>
     <mask>*.js</mask>
   </component>
 </application>
