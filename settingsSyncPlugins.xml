@@ -2,6 +2,17 @@
   <component name="SettingsSyncPlugins">
     <option name="plugins">
       <map>
+        <entry key="A move tab left and right using the keyboard plugin - by momomo.com">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="AntSupport">
           <value>
             <PluginData>
@@ -114,6 +125,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="Refactor-X">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="Subversion">
           <value>
             <PluginData>
@@ -189,6 +213,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="color.scheme.Wombat">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.android.tools.idea.smali">
           <value>
             <PluginData>
@@ -202,9 +239,62 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.dmarcotte.handlebars">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.euphoricity.gitignore">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="com.github.masahirosuzuka.PhoneGapIntelliJPlugin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.CloudConfig">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.aop">
           <value>
             <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.apacheConfig">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
@@ -398,6 +488,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.lang.liquid">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.ultimate" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.micronaut">
           <value>
             <PluginData>
@@ -409,6 +512,27 @@
           <value>
             <PluginData>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.persistence">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.html.instantEditing">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="JavaScriptDebugger" />
+                  <option value="com.intellij.css" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -549,6 +673,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.CyanTheme">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.jetbrains.codeWithMe">
           <value>
             <PluginData>
@@ -556,6 +692,33 @@
                 <set>
                   <option value="com.intellij.modules.platform" />
                   <option value="com.jetbrains.projector.libs" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.gateway">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.ssh" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.gateway.terminal">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ssh" />
+                  <option value="com.jetbrains.gateway" />
+                  <option value="org.jetbrains.plugins.terminal" />
                 </set>
               </option>
               <option name="enabled" value="false" />
@@ -575,6 +738,18 @@
                 </set>
               </option>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.lang.ejs">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -661,6 +836,24 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.plugins.ini4idea">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.restClient">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.jetbrains.restWebServices">
           <value>
             <PluginData>
@@ -672,6 +865,30 @@
           <value>
             <PluginData>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.steve.plugins.autoscroll">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.yii2support">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.database" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.jetbrains.php" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -770,6 +987,31 @@
                 </set>
               </option>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="lv.midiana.misc.idea-plugins.deep-js-completion">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.aya.plugins.checksql">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.database" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -949,6 +1191,13 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.jetbrains.plugins.remote-run">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.jetbrains.plugins.stylus">
           <value>
             <PluginData>
@@ -966,6 +1215,22 @@
           <value>
             <PluginData>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.yseasony.sqlgenerator">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="ru.adelf.idea.dotenv">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
