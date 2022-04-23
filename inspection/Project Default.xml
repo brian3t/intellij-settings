@@ -2,7 +2,7 @@
   <option name="myName" value="Project Default" />
   <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSIgnoredPromiseFromCall" enabled="true" level="TYPO" enabled_by_default="true" />
+  <inspection_tool class="JSIgnoredPromiseFromCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="JSJQueryEfficiency" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUnresolvedFunction" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnusedAssignment" enabled="true" level="TYPO" enabled_by_default="true" />
