@@ -84,6 +84,7 @@
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift f5" />
     <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
@@ -220,6 +221,10 @@
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="SplitChooser.Duplicate" />
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="shift f7" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
