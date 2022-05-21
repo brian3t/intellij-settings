@@ -1256,6 +1256,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.sylfra.idea.plugins.linessorter">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.toml.lang">
           <value>
             <PluginData>
