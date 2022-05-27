@@ -116,6 +116,7 @@
   <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
