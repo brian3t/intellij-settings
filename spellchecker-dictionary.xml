@@ -2,10 +2,11 @@
   <component name="CachedDictionaryState">
     <words>
       <w>addr</w>
-      <w>infowindow</w>
-      <w>latlng</w>
+      <w>bookables</w>
+      <w>gmap</w>
+      <w>locid</w>
       <w>ridematch</w>
-      <w>ttrack</w>
+      <w>ridematches</w>
     </words>
   </component>
 </application>
