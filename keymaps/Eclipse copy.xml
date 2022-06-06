@@ -206,6 +206,9 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f5" />
@@ -225,6 +228,9 @@
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="shift f7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
