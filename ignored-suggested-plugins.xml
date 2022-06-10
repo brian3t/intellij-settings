@@ -3,6 +3,7 @@
     <option name="pluginIds">
       <list>
         <option value="com.jetbrains.restClient" />
+        <option value="org.jetbrains.android" />
       </list>
     </option>
   </component>
