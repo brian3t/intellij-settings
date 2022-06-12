@@ -20,7 +20,7 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="del rctc ie511" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="del rctc ie511" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
       <option name="PARAMETERS" value="shell pm uninstall com.RCTC.IE511" />
@@ -48,39 +48,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="move trigger to ppmh" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="touch" />
-      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
-      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ppmh/trigger/" />
-    </exec>
-  </tool>
   <tool name="reset importer" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/soft/utility/rev/reset_importer.sh" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="C:/Users/tri/soft/utility/rev" />
-    </exec>
-  </tool>
-  <tool name="move trigger to ubmc" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="touch" />
-      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
-      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ubmc/trigger/" />
-    </exec>
-  </tool>
-  <tool name="move trigger to sbhny" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="touch" />
-      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
-      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/sbhny/trigger/" />
-    </exec>
-  </tool>
-  <tool name="move trigger to himg" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="touch" />
-      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
-      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/himg/trigger/" />
     </exec>
   </tool>
   <tool name="del usv lno" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
@@ -102,6 +74,13 @@
       <option name="COMMAND" value="/usr/bin/cordova" />
       <option name="PARAMETERS" value="build android" />
       <option name="WORKING_DIRECTORY" value="/var/www/capo_html" />
+    </exec>
+  </tool>
+  <tool name="ionic build ccm" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.npm_packages/bin/ionic" />
+      <option name="PARAMETERS" value="capacitor copy android" />
+      <option name="WORKING_DIRECTORY" value="/var/www/ccm" />
     </exec>
   </tool>
 </toolSet>
