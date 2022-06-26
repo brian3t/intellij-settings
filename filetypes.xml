@@ -7,7 +7,6 @@
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
       <mapping pattern="sp_print_parms" type="AUTO_DETECTED" />
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
-      <removed_mapping ext="ng" type="HTML" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
@@ -32,6 +31,7 @@
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="env" approved="true" type=".env file" />
       <removed_mapping ext="env" approved="true" type="Env File" />
+      <removed_mapping ext="ng" approved="true" type="HTML" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
