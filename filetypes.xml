@@ -27,26 +27,15 @@
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
-      <removed_mapping ext="csv" approved="true" type="CSV" />
-      <removed_mapping ext="env" approved="true" type=".env file" />
       <removed_mapping ext="env" approved="true" type=".env file" />
       <removed_mapping ext="env" approved="true" type="Env File" />
-      <removed_mapping ext="env" approved="true" type="Env File" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
-      <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
       <mapping ext="gradle.kts" type="Kotlin" />
