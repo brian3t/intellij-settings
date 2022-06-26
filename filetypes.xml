@@ -7,6 +7,7 @@
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
       <mapping pattern="sp_print_parms" type="AUTO_DETECTED" />
       <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
+      <removed_mapping ext="ng" type="HTML" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
