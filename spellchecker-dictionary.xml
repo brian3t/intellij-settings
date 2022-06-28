@@ -3,11 +3,13 @@
     <words>
       <w>addr</w>
       <w>bookables</w>
+      <w>carsize</w>
       <w>commutelog</w>
       <w>cuser</w>
       <w>gmap</w>
       <w>locid</w>
       <w>mwcog</w>
+      <w>pers</w>
       <w>retval</w>
       <w>ridematch</w>
       <w>ridematches</w>
