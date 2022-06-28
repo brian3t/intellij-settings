@@ -37,7 +37,7 @@
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".log" approved="true" type="log" />
-      <removed_mapping pattern="Pipfile" type="TOML" />
+      <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
