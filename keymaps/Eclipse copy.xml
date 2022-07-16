@@ -271,6 +271,7 @@
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
   <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
