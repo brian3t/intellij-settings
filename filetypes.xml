@@ -1,12 +1,12 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping pattern="monitrc" type="AUTO_DETECTED" />
       <mapping pattern="test,sh" type="AUTO_DETECTED" />
       <mapping pattern="sauto" type="AUTO_DETECTED" />
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
       <mapping pattern="sp_print_parms" type="AUTO_DETECTED" />
+      <mapping pattern="invaws_craft" type="AUTO_DETECTED" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
