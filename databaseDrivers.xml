@@ -28,7 +28,7 @@
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.3.3" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
     </driver>
     <driver id="com.filemaker.jdbc.Driver" name="com.filemaker.jdbc.Driver" driver-class="com.filemaker.jdbc.Driver">
       <library>
