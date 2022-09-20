@@ -35,10 +35,12 @@
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="ng" approved="true" type="HTML" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="qrc" approved="true" type="XML" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
+      <removed_mapping pattern=".htaccess" approved="true" type="htaccess" />
       <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
       <mapping ext="gradle.kts" type="Kotlin" />
