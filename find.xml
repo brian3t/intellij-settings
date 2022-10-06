@@ -21,9 +21,9 @@
     <mask>*.scss</mask>
     <mask>*.json</mask>
     <mask>*.css</mask>
-    <mask>*.js</mask>
     <mask>*.liquid</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.js</mask>
   </component>
 </application>
