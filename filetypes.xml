@@ -13,7 +13,6 @@
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
-      <mapping pattern=".htaccess" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
@@ -40,7 +39,7 @@
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".htaccess" approved="true" type="htaccess" />
+      <removed_mapping pattern=".htaccess" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
       <mapping ext="gradle.kts" type="Kotlin" />
