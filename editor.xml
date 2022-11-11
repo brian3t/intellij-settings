@@ -17,6 +17,6 @@
   <component name="LiveEditOptions" nodeAutoDelay="300" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
-    <pattern pattern="todob" />
+    <pattern case-sensitive="true" pattern="todob" />
   </component>
 </application>
