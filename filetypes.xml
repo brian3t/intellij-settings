@@ -25,6 +25,7 @@
       <mapping ext="html_orig" type="PLAIN_TEXT" />
       <mapping ext="jasper" type="PLAIN_TEXT" />
       <mapping ext="edge" type="PLAIN_TEXT" />
+      <mapping ext="js_example" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
