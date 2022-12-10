@@ -8,7 +8,6 @@
       <mapping pattern="int_agentjsx" type="AUTO_DETECTED" />
       <mapping pattern="sp_print_parms" type="AUTO_DETECTED" />
       <mapping ext="config" type="JSON" />
-      <removed_mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="samplejson" type="PLAIN_TEXT" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
@@ -43,6 +42,7 @@
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".htaccess" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".log" approved="true" type="log" />
+      <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
       <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
