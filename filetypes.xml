@@ -40,7 +40,6 @@
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
-      <removed_mapping pattern=".htaccess" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".log" approved="true" type="log" />
       <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
       <removed_mapping pattern="Pipfile" approved="true" type="TOML" />
