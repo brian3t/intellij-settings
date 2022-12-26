@@ -47,6 +47,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
   <action id="Console.Jdbc.Execute.2">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -117,6 +120,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt 8" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorPasteSimple">
