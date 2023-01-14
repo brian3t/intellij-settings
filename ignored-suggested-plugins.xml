@@ -4,6 +4,8 @@
       <list>
         <option value="com.jetbrains.restClient" />
         <option value="org.jetbrains.android" />
+        <option value="org.intellij.plugins.postcss" />
+        <option value="intellij.prettierJS" />
       </list>
     </option>
   </component>

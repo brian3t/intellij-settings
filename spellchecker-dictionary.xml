@@ -10,6 +10,7 @@
       <w>gmap</w>
       <w>locid</w>
       <w>mwcog</w>
+      <w>ovrd</w>
       <w>pers</w>
       <w>retval</w>
       <w>ridematch</w>
@@ -20,7 +21,9 @@
       <w>swal</w>
       <w>tabbar</w>
       <w>tripreceipt</w>
+      <w>uoms</w>
       <w>vanpool</w>
+      <w>yiiuser</w>
     </words>
   </component>
 </application>
