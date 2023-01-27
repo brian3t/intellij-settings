@@ -83,4 +83,11 @@
       <option name="WORKING_DIRECTORY" value="/var/www/ccm" />
     </exec>
   </tool>
+  <tool name="ionic cap sync" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.npm_packages/bin/ionic" />
+      <option name="PARAMETERS" value="cap sync" />
+      <option name="WORKING_DIRECTORY" value="/var/www/test" />
+    </exec>
+  </tool>
 </toolSet>

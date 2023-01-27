@@ -6,6 +6,9 @@
         <option value="org.jetbrains.android" />
         <option value="org.intellij.plugins.postcss" />
         <option value="intellij.prettierJS" />
+        <option value="tslint" />
+        <option value="AngularJS" />
+        <option value="org.jetbrains.plugins.vue" />
       </list>
     </option>
   </component>

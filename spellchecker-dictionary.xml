@@ -2,27 +2,36 @@
   <component name="CachedDictionaryState">
     <words>
       <w>addr</w>
+      <w>blameable</w>
       <w>bookables</w>
       <w>carsize</w>
       <w>commutelog</w>
       <w>cuser</w>
+      <w>cust</w>
       <w>daynote</w>
+      <w>envv</w>
       <w>gmap</w>
       <w>locid</w>
       <w>mwcog</w>
       <w>ovrd</w>
       <w>pers</w>
+      <w>pickdet</w>
+      <w>pickdets</w>
+      <w>pickline</w>
       <w>retval</w>
       <w>ridematch</w>
       <w>ridematches</w>
       <w>ridematching</w>
+      <w>shipmeth</w>
       <w>slideout</w>
       <w>socal</w>
       <w>swal</w>
       <w>tabbar</w>
+      <w>todob</w>
       <w>tripreceipt</w>
       <w>uoms</w>
       <w>vanpool</w>
+      <w>whse</w>
       <w>yiiuser</w>
     </words>
   </component>
