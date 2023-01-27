@@ -1,15 +1,19 @@
 <application>
   <component name="GeneralSettings">
+    <option name="browserPath" value="/usr/bin/opera" />
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="1" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
     <option name="autoSyncFiles" value="false" />
+    <option name="useDefaultBrowser" value="false" />
   </component>
   <component name="Registry">
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="js.debugger.use.node.options" value="false" />
     <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="debugger.new.tool.window.layout" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
