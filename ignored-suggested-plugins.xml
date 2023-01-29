@@ -9,6 +9,7 @@
         <option value="tslint" />
         <option value="AngularJS" />
         <option value="org.jetbrains.plugins.vue" />
+        <option value="Karma" />
       </list>
     </option>
   </component>
