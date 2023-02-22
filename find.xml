@@ -21,9 +21,9 @@
     <mask>*.css</mask>
     <mask>*.liquid</mask>
     <mask>*.scss</mask>
-    <mask>*.php</mask>
     <mask>*.jsx</mask>
     <mask>*.js</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
