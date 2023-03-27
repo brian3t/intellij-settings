@@ -202,7 +202,6 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="RecentLocations" />
   <action id="Refactorings.QuickListPopupAction" />
@@ -279,6 +278,10 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.Log.ShowTooltip">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
