@@ -15,6 +15,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="f8f3783e-a5d3-4387-94bd-99026d6fbc6e" name="andr dev" url="http://coll.local">
+        <fileTransfer rootFolder="/var/www/html/basic" accessType="SFTP" host="ec2-52-88-203-83.us-west-2.compute.amazonaws.com" port="22" sshConfigId="195a07ec-7a83-46bc-841b-63555f15417c" sshConfig="andr dev" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
