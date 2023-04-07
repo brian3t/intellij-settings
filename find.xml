@@ -21,10 +21,10 @@
     <mask>*.json</mask>
     <mask>*.css</mask>
     <mask>*.liquid</mask>
-    <mask>*.scss</mask>
     <mask>*.jsx</mask>
     <mask>*.js</mask>
     <mask>*.js</mask>
+    <mask>*.scss</mask>
     <mask>*.php</mask>
   </component>
 </application>
