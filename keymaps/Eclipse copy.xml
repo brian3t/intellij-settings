@@ -159,6 +159,9 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -283,6 +286,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.Inspect" />
