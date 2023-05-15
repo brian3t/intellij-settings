@@ -14,19 +14,19 @@
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
       <mapping pattern="invaws" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping ext="pug" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="config_bkup" type="PLAIN_TEXT" />
-      <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping ext="config_bkup0608" type="PLAIN_TEXT" />
       <mapping ext="js_example" type="PLAIN_TEXT" />
+      <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping ext="liquid_bkup" type="PLAIN_TEXT" />
+      <mapping ext="pug" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
+      <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping ext="html_orig" type="PLAIN_TEXT" />
       <mapping ext="pm2" type="PLAIN_TEXT" />
-      <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="jasper" type="PLAIN_TEXT" />
-      <mapping ext="liquid_bkup" type="PLAIN_TEXT" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
