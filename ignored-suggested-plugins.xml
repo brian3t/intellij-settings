@@ -10,6 +10,7 @@
         <option value="AngularJS" />
         <option value="org.jetbrains.plugins.vue" />
         <option value="Karma" />
+        <option value="com.intellij.tailwindcss" />
       </list>
     </option>
   </component>
