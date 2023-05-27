@@ -15,15 +15,15 @@
     <mask>*.java</mask>
     <mask>*.jrxml</mask>
     <mask>*.cshtml</mask>
-    <mask>*.ts</mask>
     <mask>*.html</mask>
     <mask>*.json</mask>
     <mask>*.css</mask>
     <mask>*.liquid</mask>
     <mask>*.scss</mask>
-    <mask>*.jsx</mask>
     <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.js</mask>
+    <mask>*.ts</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
