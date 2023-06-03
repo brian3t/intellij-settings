@@ -16,9 +16,7 @@
           <item url="file:///var/www/lno/src/jslib/node_modules/axios/dist/axios.js" />
         </sourceFilesUrls>
       </properties>
-      <CLASSES>
-        <root url="file:///var/www/lno/src/jslib/node_modules/axios/dist/axios.js" />
-      </CLASSES>
+      <CLASSES />
       <DOCUMENTATION>
         <root url="https://raw.githubusercontent.com/axios/axios/v1.x/README.md" />
       </DOCUMENTATION>
