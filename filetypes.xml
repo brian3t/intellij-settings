@@ -27,6 +27,8 @@
       <mapping ext="html_orig" type="PLAIN_TEXT" />
       <mapping ext="pm2" type="PLAIN_TEXT" />
       <mapping ext="jasper" type="PLAIN_TEXT" />
+      <mapping pattern="spring.handlers" type="Properties" />
+      <mapping pattern="spring.schemas" type="Properties" />
       <mapping pattern="sperp_repo_push.sql" type="SQL" />
       <mapping pattern="bn_linux_wms" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
