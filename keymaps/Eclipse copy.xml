@@ -220,6 +220,9 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -232,6 +235,7 @@
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowErrorDescription" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
