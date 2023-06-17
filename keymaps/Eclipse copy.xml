@@ -232,6 +232,7 @@
   </action>
   <action id="RunInspection" />
   <action id="RunToCursor" />
+  <action id="SelectAllOccurrences" />
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
@@ -301,6 +302,9 @@
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
   <action id="context.load" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt y" />
+  </action>
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
   <action id="sql.SelectInDatabaseView" />
