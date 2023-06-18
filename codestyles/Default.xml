@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
+  </PHPCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <indentOptions>
@@ -8,6 +11,14 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="METHOD_BRACE_STYLE" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
