@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="7294b184-9119-4b2f-95d0-98a7d7df5a56" name="socal" url="http://socalappsolutions.com">
-        <fileTransfer host="socalappsolutions.com" port="21">
+        <fileTransfer rootFolder="/lnoapi" host="socalappsolutions.com" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
