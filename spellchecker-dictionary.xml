@@ -15,6 +15,7 @@
       <w>dbuser</w>
       <w>dropoff</w>
       <w>envv</w>
+      <w>eventt</w>
       <w>firebaseapi</w>
       <w>gmap</w>
       <w>imgresize</w>
@@ -23,6 +24,7 @@
       <w>jslib</w>
       <w>krajee</w>
       <w>locid</w>
+      <w>maxrows</w>
       <w>mwcog</w>
       <w>noti</w>
       <w>onride</w>
