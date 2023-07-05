@@ -176,6 +176,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Markdown.Styling.CreateLink" />
   <action id="MethodHierarchy" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
@@ -295,6 +296,7 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="ViewSource" />
+  <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />
