@@ -22,7 +22,6 @@
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="liquid_bkup" type="PLAIN_TEXT" />
       <mapping ext="pug" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="edge" type="PLAIN_TEXT" />
       <mapping ext="html_orig" type="PLAIN_TEXT" />
       <mapping ext="pm2" type="PLAIN_TEXT" />
