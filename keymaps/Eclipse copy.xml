@@ -159,6 +159,9 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -173,6 +176,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Markdown.Styling.CreateLink" />
   <action id="MethodHierarchy" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
@@ -202,7 +206,6 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="RecentLocations" />
   <action id="Refactorings.QuickListPopupAction" />
@@ -218,6 +221,9 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -227,9 +233,11 @@
   </action>
   <action id="RunInspection" />
   <action id="RunToCursor" />
+  <action id="SelectAllOccurrences" />
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowErrorDescription" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
@@ -279,8 +287,16 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.Log.ShowTooltip">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="ViewSource" />
+  <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.Inspect" />
   <action id="XDebugger.SetValue" />
@@ -288,6 +304,9 @@
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
   <action id="context.load" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt y" />
+  </action>
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
   <action id="sql.SelectInDatabaseView" />

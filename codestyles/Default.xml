@@ -5,86 +5,10 @@
       <option name="TAB_SIZE" value="2" />
     </value>
   </option>
-  <option name="RIGHT_MARGIN" value="200" />
-  <HTMLCodeStyleSettings>
-    <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-  </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings version="0">
-    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
-    <option name="OBJECT_LITERAL_WRAP" value="1" />
-    <option name="IMPORTS_WRAP" value="1" />
-    <option name="SPACE_AFTER_UNARY_NOT" value="true" />
-  </JSCodeStyleSettings>
-  <PHPCodeStyleSettings>
-    <option name="SPACE_AFTER_UNARY_NOT" value="true" />
-  </PHPCodeStyleSettings>
-  <ScssCodeStyleSettings>
-    <option name="BLANK_LINES_BETWEEN_BLOCKS" value="0" />
-    <option name="BLANK_LINES_AROUND_NESTED_SELECTOR" value="0" />
-    <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
-  </ScssCodeStyleSettings>
-  <codeStyleSettings language="CSS">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="HTML">
-    <option name="RIGHT_MARGIN" value="200" />
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="JAVA">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="LESS">
-    <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="PHP">
-    <option name="METHOD_BRACE_STYLE" value="1" />
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="SASS">
-    <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="SCSS">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
-    <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="SQL">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
@@ -92,13 +16,6 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="liquid">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>

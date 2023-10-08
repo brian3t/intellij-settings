@@ -10,6 +10,10 @@
         <option value="AngularJS" />
         <option value="org.jetbrains.plugins.vue" />
         <option value="Karma" />
+        <option value="com.intellij.tailwindcss" />
+        <option value="com.intellij.bigdatatools" />
+        <option value="idea.plugin.protoeditor" />
+        <option value="com.intellij.grpc" />
       </list>
     </option>
   </component>

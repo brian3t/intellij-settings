@@ -13,6 +13,12 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.6.105" id="8a4f50bc-71c0-40eb-aa67-b750de208668" port="22" customName="INTDev" nameFormat="CUSTOM" username="evsadmin">
         <option name="customName" value="INTDev" />
       </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="mycollabkit.com" id="cf5d8703-dfeb-4764-96a9-85f4bf78ac57" keyPath="$USER_HOME$/tmp/mega/projects/andr/brianng.pem" port="22" customName="andr" nameFormat="CUSTOM" username="ubuntu" useOpenSSHConfig="true">
+        <option name="customName" value="andr" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-52-88-203-83.us-west-2.compute.amazonaws.com" id="195a07ec-7a83-46bc-841b-63555f15417c" keyPath="$USER_HOME$/tmp/mega/projects/andr/andrew.pem" port="22" customName="andr dev" nameFormat="CUSTOM" username="ubuntu" useOpenSSHConfig="true">
+        <option name="customName" value="andr dev" />
+      </sshConfig>
     </configs>
   </component>
 </application>
