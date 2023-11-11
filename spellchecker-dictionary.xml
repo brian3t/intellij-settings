@@ -34,6 +34,7 @@
       <w>pickdets</w>
       <w>pickline</w>
       <w>refetch</w>
+      <w>retcode</w>
       <w>retval</w>
       <w>ridematch</w>
       <w>ridematches</w>
