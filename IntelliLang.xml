@@ -92,6 +92,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("withHeader").definedInClass("org.mockserver.model.HttpRequest"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("withHeader", "getHeader", "getFirstHeader", "containsHeader", "removeHeader").definedInClass("org.mockserver.model.HttpResponse"))]]></place>
     </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>MyBatis @Select/@Delete/@Insert/@Update</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Delete")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Insert")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Select")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
+    </injection>
     <injection language="http-url-reference" injector-id="java">
       <display-name>OkHttp (okhttp3)</display-name>
       <single-file value="true" />
