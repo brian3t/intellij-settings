@@ -410,6 +410,7 @@
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("json_table"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, -1, 2, sqlFunctionCall().name("json_object"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("json_object_agg"))]]></place>
+      <place><![CDATA[sqlExpression().forDialects("Oracle").functionArgument(0, -1, 1, sqlFunctionCall().name("json_object")).withNextMeaningfulSibling(leafTokens("format"), 0).withNextMeaningfulSibling(leafTokens("json"), 1)]]></place>
     </injection>
     <injection language="RegExp" injector-id="sql">
       <display-name>Oracle RegExp</display-name>
@@ -463,6 +464,13 @@
       <single-file value="true" />
       <place><![CDATA[sqlElement().forDialects("Sybase").binaryExpressionArgument(0, sqlBinaryExpression().operation(leafTokens("xmltest").or("not", "xmltest")))]]></place>
       <place><![CDATA[sqlElement().forDialects("Sybase").functionArgument(0, sqlFunctionCall().name("xmlextract"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="xml">
+      <display-name>SpEL for Spring Cache</display-name>
+      <single-file value="true" />
+      <place><![CDATA[xmlAttribute().withLocalName("condition").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
+      <place><![CDATA[xmlAttribute().withLocalName("key").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
+      <place><![CDATA[xmlAttribute().withLocalName("unless").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
     </injection>
   </component>
 </application>
