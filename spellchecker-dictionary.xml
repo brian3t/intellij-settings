@@ -13,6 +13,7 @@
       <w>cust</w>
       <w>daynote</w>
       <w>dbuser</w>
+      <w>dedup</w>
       <w>dropoff</w>
       <w>envv</w>
       <w>eventt</w>
@@ -25,6 +26,7 @@
       <w>krajee</w>
       <w>locid</w>
       <w>maxrows</w>
+      <w>multiship</w>
       <w>mwcog</w>
       <w>noti</w>
       <w>onride</w>
