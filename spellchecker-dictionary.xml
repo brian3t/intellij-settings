@@ -27,11 +27,13 @@
       <w>locid</w>
       <w>maxrows</w>
       <w>multiship</w>
+      <w>multishipping</w>
       <w>mwcog</w>
       <w>noti</w>
       <w>onride</w>
       <w>ovrd</w>
       <w>pers</w>
+      <w>phtml</w>
       <w>pickdet</w>
       <w>pickdets</w>
       <w>pickline</w>
