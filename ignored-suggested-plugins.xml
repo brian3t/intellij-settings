@@ -15,6 +15,7 @@
         <option value="idea.plugin.protoeditor" />
         <option value="com.intellij.grpc" />
         <option value="Docker" />
+        <option value="com.intellij.spring.data" />
       </list>
     </option>
   </component>
