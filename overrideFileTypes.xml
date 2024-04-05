@@ -1,7 +1,0 @@
-<application>
-  <component name="OverrideFileTypeManager">
-    <file url="file:///var/www/bkup/evs/mobe3webwms/scripts/controllers/userhooks/Lodge/BaseController.js" />
-    <file url="file:///var/www/capo_html/www/css/compass/config.rb" />
-    <file url="file:///var/www/formulary_api/util/rb.php" value="PHP" />
-  </component>
-</application>
