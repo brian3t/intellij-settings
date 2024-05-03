@@ -43,6 +43,7 @@
       <w>pickdets</w>
       <w>pickline</w>
       <w>pickupords</w>
+      <w>postgre</w>
       <w>refetch</w>
       <w>retcode</w>
       <w>retval</w>
