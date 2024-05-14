@@ -17,13 +17,13 @@
     <mask>*.json</mask>
     <mask>*.css</mask>
     <mask>*.liquid</mask>
-    <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>*.phtml</mask>
     <mask>*.jsx</mask>
     <mask>*.xml</mask>
+    <mask>*.js</mask>
+    <mask>*.js</mask>
     <mask>*.php</mask>
-    <mask>*.js</mask>
-    <mask>*.js</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
