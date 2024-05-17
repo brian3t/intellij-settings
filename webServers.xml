@@ -29,6 +29,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="dec0a767-22de-420f-8e48-ff7373cfee2f" name="socal lnoapi" url="http://socalappsolutions.com">
+        <fileTransfer rootFolder="/var/www/lnoapi" accessType="SFTP" host="socalappsolutions.com" port="22" sshConfigId="0f90e8a7-2657-4876-84da-d81a7896b11b" sshConfig="socal">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
