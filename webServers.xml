@@ -43,6 +43,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="c89bf121-0cfb-4911-8119-a71c8b0d2942" name="socal ccm" url="http://socalappsolutions.com">
+        <fileTransfer rootFolder="/var/www/ccm" accessType="SFTP" host="socalappsolutions.com" port="22" sshConfigId="0f90e8a7-2657-4876-84da-d81a7896b11b" sshConfig="socal">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
