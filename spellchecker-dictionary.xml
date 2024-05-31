@@ -9,17 +9,21 @@
       <w>bookables</w>
       <w>capp</w>
       <w>carsize</w>
+      <w>coldef</w>
       <w>commutelog</w>
       <w>comstatus</w>
+      <w>contid</w>
       <w>creditcard</w>
       <w>curpage</w>
       <w>cuser</w>
       <w>cust</w>
+      <w>dataview</w>
       <w>daynote</w>
       <w>dbuser</w>
       <w>dedup</w>
       <w>drider</w>
       <w>dropoff</w>
+      <w>dvrows</w>
       <w>envv</w>
       <w>eventt</w>
       <w>firebaseapi</w>
@@ -40,6 +44,7 @@
       <w>noti</w>
       <w>onride</w>
       <w>ovrd</w>
+      <w>parms</w>
       <w>pers</w>
       <w>phtml</w>
       <w>pickdet</w>
@@ -47,12 +52,14 @@
       <w>pickline</w>
       <w>pickupords</w>
       <w>postgre</w>
+      <w>putaway</w>
       <w>refetch</w>
       <w>retcode</w>
       <w>retval</w>
       <w>ridematch</w>
       <w>ridematches</w>
       <w>ridematching</w>
+      <w>rowid</w>
       <w>sctype</w>
       <w>shipconfig</w>
       <w>shipmeth</w>
