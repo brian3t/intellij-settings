@@ -1,5 +1,5 @@
 <scheme name="_@user_Light" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.5" />
   <metaInfo>
     <property name="created">2023-12-25T07:49:11</property>
     <property name="ide">idea</property>
@@ -10,6 +10,6 @@
     <property name="pluginId">com.intellij</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="19" />
+  <option name="EDITOR_FONT_SIZE" value="23" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
 </scheme>
