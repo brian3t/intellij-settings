@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.js,*.phtml</mask>
@@ -24,8 +25,8 @@
     <mask>*.scss</mask>
     <mask>*.phtml</mask>
     <mask>*.xml</mask>
-    <mask>*.js</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>
