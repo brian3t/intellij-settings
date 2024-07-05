@@ -21,9 +21,9 @@
     <mask>*.phtml</mask>
     <mask>*.less</mask>
     <mask>*.xml</mask>
-    <mask>*.php</mask>
     <mask>*.scss</mask>
     <mask>*.css</mask>
+    <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.js</mask>
   </component>
