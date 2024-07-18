@@ -43,6 +43,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="00c30e8f-13ff-4d93-b8af-1912235ffe4e" name="depl socal" url="https://depl.socalappsolutions.com">
+        <fileTransfer rootFolder="/var/www/depl" accessType="SFTP" host="socalappsolutions.com" port="22" sshConfigId="0f90e8a7-2657-4876-84da-d81a7896b11b" sshConfig="socal">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
