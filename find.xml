@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Changes" />
-    <option name="defaultScopeName" value="Changes" />
-    <option name="SEARCH_SCOPE" value="Changes" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.js,*.phtml</mask>
@@ -23,8 +25,8 @@
     <mask>*.scss</mask>
     <mask>*.css</mask>
     <mask>*.xml</mask>
-    <mask>*.js</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>
