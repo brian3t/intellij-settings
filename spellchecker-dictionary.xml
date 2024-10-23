@@ -58,6 +58,7 @@
       <w>pickupords</w>
       <w>postgre</w>
       <w>putaway</w>
+      <w>quoteaddress</w>
       <w>refetch</w>
       <w>retcode</w>
       <w>retval</w>
