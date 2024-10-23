@@ -24,7 +24,7 @@
     <mask>*.xml</mask>
     <mask>*</mask>
     <mask>*.js</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
